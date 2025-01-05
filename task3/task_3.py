@@ -13,14 +13,14 @@ class Circle:
         self.radius = radius
         self.pi = 3.14
 
-    def square(self):
+    def area(self):
             return self.pi * self.radius ** 2
 
     def perimetr(self):
         return round(2 * self.pi * self.radius, 2)
 
     def __str__(self):
-        return f'Площадь круга = {self.square()}, Периметр круга = {self.perimetr()}'
+        return f'Площадь круга = {self.area()}, Периметр круга = {self.perimetr()}'
 
 
 r1 = Circle(int(input('Введите радиус круга: ')))
