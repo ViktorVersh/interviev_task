@@ -5,6 +5,10 @@
 """
 
 class Circle:
+    """
+    Класс "Круг":
+    содержит методы для вычисления площади и периметра круга.
+    """
     def __init__(self, radius):
         self.radius = radius
         self.pi = 3.14

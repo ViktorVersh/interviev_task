@@ -6,6 +6,12 @@
 
 
 def new_list(list_string):
+    """
+    Функция принимает список строк, а затем возвращает новый список,
+    отсортированный по длине слов, начиная с самых коротких.
+    :param list_string:
+    :return:
+    """
     list_string.sort(key=len)
     return list_string
 
