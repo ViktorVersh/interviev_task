@@ -34,5 +34,4 @@ def count_lines(file_name):
 #         print('File not found', error)
 
 
-
-print(count_lines('test_file.txt'))
+print(count_lines('test.txt'))
