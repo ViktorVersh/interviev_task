@@ -15,8 +15,8 @@ def copy_file(source, target):
         with open(source, 'r', encoding='utf-8') as source_file:
             if os.path.exists(target):
                 print('Файл уже существует. Перезаписать?')
-                answer = input('y/n: ')
-                if answer == 'y':
+                choice = input('y/n: ')
+                if choice == 'y':
                     with open(target, 'w', encoding='utf-8') as target_file:
                         for line in source_file:
                             target_file.write(line)
