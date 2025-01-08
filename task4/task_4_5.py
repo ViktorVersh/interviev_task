@@ -16,7 +16,7 @@ def copy_to_json(filename):
     """
     with open(filename, 'r', encoding='utf-8') as file:
         data = file.readlines()
-    with open('test_file.json', 'w', encoding='utf-8') as file:
+    with open('test_file.json', 'w') as file:
         json.dump(data, file)
 
 
