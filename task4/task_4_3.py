@@ -30,4 +30,4 @@ def find_words(file_name):
         return
 
 
-print(find_words('test_file.txt'))
+print(find_words('test.txt'))

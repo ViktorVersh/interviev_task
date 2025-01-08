@@ -21,4 +21,4 @@ def rewrite_file(file_name):
     return
 
 
-rewrite_file('test_file.txt')
+rewrite_file('test.txt')
