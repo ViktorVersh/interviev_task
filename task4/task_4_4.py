@@ -12,7 +12,7 @@ def copy_file(source, target):
     :return:
     """
     try:
-        with open(source, 'r',encoding='utf-8') as source_file:
+        with open(source, 'r', encoding='utf-8') as source_file:
             if os.path.exists(target):
                 print('Файл уже существует. Перезаписать?')
                 answer = input('y/n: ')
