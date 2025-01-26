@@ -16,5 +16,5 @@ try:
         print(div_even(a_wight))
     else:
         print("Error")  # если введено число вне диапазона от 1 до 100
-except ValueError as er:
+except ValueError:
     print("Error")  # если введено не целое число
