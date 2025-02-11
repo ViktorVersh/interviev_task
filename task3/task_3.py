@@ -14,7 +14,7 @@ class Circle:
         self.pi = 3.14
 
     def area(self):
-            return self.pi * self.radius ** 2
+        return self.pi * self.radius ** 2
 
     def perimetr(self):
         return round(2 * self.pi * self.radius, 2)
